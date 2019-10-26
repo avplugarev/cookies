@@ -6,13 +6,32 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h2 id="query">Введите ваш город пребывания:</h2>
-    <h2 id="message">Ваш город: "<span id="myCity"></span>"</h2>
-    <textarea style="width:200px; height: 60px;" id="area" placeholder="Напишите сообщение здесь"></textarea>
-    <br>
-    <h3 id="result"></h3>
-    <button id="save">Сохранить</button>
-    <button id="clear">Очистить</button>
+    <section>
+        <h2 id="query">Введите ваш город пребывания:</h2>
+        <h2 id="message">Ваш город: "<span id="myCity"></span>"</h2>
+        <textarea style="width:200px; height: 60px;" id="area" placeholder="Напишите сообщение здесь"></textarea>
+        <br>
+        <h3 id="result"></h3>
+        <button id="save">Сохранить</button>
+        <button id="clear">Очистить</button>
+    </section>
+    <section>
+        <h2>Выберите свои предпочтения</h2>
+        <input type="checkbox" id="nocall">
+        <label for ='nocall'>Не звоните мне;</label><br>
+        <input type="checkbox" id = "agree">
+        <label for ='agree'>я прочитал и согласен с правилами пользования сервисом;</label><br>
+        <input type="checkbox" id="notChoose">
+        <label for ='notChoose'>я не выбираю эту галочку;</label><br>
+        <input type="checkbox" id="freedom">
+        <label for ='freedom'>я подтверждаю, что свобода в интернете;</label><br>
+        <input type="checkbox" id="adult">
+        <label for ='adult'>мне больше 12 лет;</label><br>
+        <input type="checkbox" id="correct">
+        <label for ='correct'>это задание выполнено правильно;</label><br>
+        <button id="submit">Сохранить выбор</button>
+    </section>
+
     <script rel="script" src="js/script.js"></script>
 </body>
 </html>
